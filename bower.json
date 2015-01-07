@@ -7,13 +7,16 @@
   ],
   "description": "A dirt simple library for parsing and formatting human readable dates",
   "main": "lib/js/kronic.js",
-  "license": "MIT",
+  "license": "LICENSE",
   "private": true,
   "ignore": [
     "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+    "Gemfile*",
+    "HISTORY",
+    "*.gemspec",
+    "*.rdoc",
+    "**/*.rb",
+    "bin",
+    "spec"
   ]
 }
